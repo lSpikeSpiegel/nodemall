@@ -1,0 +1,40 @@
+{
+  "name": "nodemall",
+  "version": "1.0.0",
+  "description": "nodema",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.15.6",
+    "file-stream-rotator": "^0.4.1",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.4.0",
+    "moment": "^2.22.2",
+    "morgan": "~1.9.0",
+    "mount-routes": "^1.0.8",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0",
+    "svg-captcha": "^1.3.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lSpikeSpiegel/nodemall.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lSpikeSpiegel/nodemall/issues"
+  },
+  "homepage": "https://github.com/lSpikeSpiegel/nodemall#readme"
+}
